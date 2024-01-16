@@ -10,21 +10,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('public/assets/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('public/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{('assets/vendor/aos/aos.css')}}" rel="stylesheet">
-  <link href="{{('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-  <link href="{{('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-  <link href="{{('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{('assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
 
 </head>
 
@@ -37,7 +37,7 @@
       <div id="logo" class="me-auto">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-        <a href="index.html" class="scrollto"><img src="{{('assets/img/logo.png')}}" alt="" title=""></a>
+        <a href="index.html" class="scrollto"><img src="{{asset('public/assets/img/logo.png')}}" alt="" title=""></a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -121,7 +121,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="{{asset('public/assets/img/speakers/1.jpg')}}" alt="Speaker 1" class="img-fluid">
+              <img src="{{asset('public/public/assets/img/speakers/1.jpg')}}" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Brenden Legros</a></h3>
                 <p>Quas alias incidunt</p>
@@ -136,7 +136,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="public/assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
                 <p>Consequuntur odio aut</p>
@@ -151,7 +151,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="public/assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Cole Emmerich</a></h3>
                 <p>Fugiat laborum et</p>
@@ -166,7 +166,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
+              <img src="public/assets/img/speakers/4.jpg" alt="Speaker 4" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Jack Christiansen</a></h3>
                 <p>Debitis iure vero</p>
@@ -181,7 +181,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
+              <img src="public/assets/img/speakers/5.jpg" alt="Speaker 5" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Alejandrin Littel</a></h3>
                 <p>Qui molestiae natus</p>
@@ -196,7 +196,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <img src="public/assets/img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Willow Trantow</a></h3>
                 <p>Non autem dicta</p>
@@ -254,7 +254,7 @@
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                  <img src="public/assets/img/speakers/1.jpg" alt="Brenden Legros">
                 </div>
                 <h4>Keynote <span>Brenden Legros</span></h4>
                 <p>Facere provident incidunt quos voluptas.</p>
@@ -265,7 +265,7 @@
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                  <img src="public/assets/img/speakers/2.jpg" alt="Hubert Hirthe">
                 </div>
                 <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -276,7 +276,7 @@
               <div class="col-md-2"><time>12:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                  <img src="public/assets/img/speakers/3.jpg" alt="Cole Emmerich">
                 </div>
                 <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
@@ -287,7 +287,7 @@
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                  <img src="public/assets/img/speakers/4.jpg" alt="Jack Christiansen">
                 </div>
                 <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
                 <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
@@ -298,7 +298,7 @@
               <div class="col-md-2"><time>03:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                  <img src="public/assets/img/speakers/5.jpg" alt="Alejandrin Littel">
                 </div>
                 <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
                 <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
@@ -309,7 +309,7 @@
               <div class="col-md-2"><time>04:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                  <img src="public/assets/img/speakers/6.jpg" alt="Willow Trantow">
                 </div>
                 <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
@@ -326,7 +326,7 @@
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                  <img src="public/assets/img/speakers/1.jpg" alt="Brenden Legros">
                 </div>
                 <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
                 <p>Facere provident incidunt quos voluptas.</p>
@@ -337,7 +337,7 @@
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                  <img src="public/assets/img/speakers/2.jpg" alt="Hubert Hirthe">
                 </div>
                 <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -348,7 +348,7 @@
               <div class="col-md-2"><time>12:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                  <img src="public/assets/img/speakers/3.jpg" alt="Cole Emmerich">
                 </div>
                 <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
@@ -359,7 +359,7 @@
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                  <img src="public/assets/img/speakers/4.jpg" alt="Jack Christiansen">
                 </div>
                 <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
                 <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
@@ -370,7 +370,7 @@
               <div class="col-md-2"><time>03:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                  <img src="public/assets/img/speakers/5.jpg" alt="Alejandrin Littel">
                 </div>
                 <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
                 <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
@@ -381,7 +381,7 @@
               <div class="col-md-2"><time>04:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                  <img src="public/assets/img/speakers/6.jpg" alt="Willow Trantow">
                 </div>
                 <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
@@ -398,7 +398,7 @@
               <div class="col-md-2"><time>10:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                  <img src="public/assets/img/speakers/2.jpg" alt="Hubert Hirthe">
                 </div>
                 <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
                 <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
@@ -409,7 +409,7 @@
               <div class="col-md-2"><time>11:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                  <img src="public/assets/img/speakers/3.jpg" alt="Cole Emmerich">
                 </div>
                 <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
                 <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
@@ -420,7 +420,7 @@
               <div class="col-md-2"><time>12:00 AM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                  <img src="public/assets/img/speakers/1.jpg" alt="Brenden Legros">
                 </div>
                 <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
                 <p>Facere provident incidunt quos voluptas.</p>
@@ -431,7 +431,7 @@
               <div class="col-md-2"><time>02:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                  <img src="public/assets/img/speakers/4.jpg" alt="Jack Christiansen">
                 </div>
                 <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
                 <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
@@ -442,7 +442,7 @@
               <div class="col-md-2"><time>03:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                  <img src="public/assets/img/speakers/5.jpg" alt="Alejandrin Littel">
                 </div>
                 <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
                 <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
@@ -453,7 +453,7 @@
               <div class="col-md-2"><time>04:00 PM</time></div>
               <div class="col-md-10">
                 <div class="speaker">
-                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                  <img src="public/assets/img/speakers/6.jpg" alt="Willow Trantow">
                 </div>
                 <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
                 <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
@@ -501,64 +501,64 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/1.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/1.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/1.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/2.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/2.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/2.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/3.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/3.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/3.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/4.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/4.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/4.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/5.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/5.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/5.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/6.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/6.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/6.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/7.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/7.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/7.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="venue-gallery">
-              <a href="assets/img/venue-gallery/8.jpg" class="glightbox" data-gall="venue-gallery">
-                <img src="assets/img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              <a href="public/assets/img/venue-gallery/8.jpg" class="glightbox" data-gall="venue-gallery">
+                <img src="public/assets/img/venue-gallery/8.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -582,7 +582,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+                <img src="public/assets/img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="#">Hotel 1</a></h3>
               <div class="stars">
@@ -599,7 +599,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
+                <img src="public/assets/img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
               </div>
               <h3><a href="#">Hotel 2</a></h3>
               <div class="stars">
@@ -616,7 +616,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel">
               <div class="hotel-img">
-                <img src="assets/img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+                <img src="public/assets/img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
               </div>
               <h3><a href="#">Hotel 3</a></h3>
               <div class="stars">
@@ -646,14 +646,14 @@
 
       <div class="gallery-slider swiper">
         <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><a href="assets/img/gallery/1.jpg" class="gallery-lightbox"><img src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/2.jpg" class="gallery-lightbox"><img src="assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/3.jpg" class="gallery-lightbox"><img src="assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/5.jpg" class="gallery-lightbox"><img src="assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/6.jpg" class="gallery-lightbox"><img src="assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/7.jpg" class="gallery-lightbox"><img src="assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="assets/img/gallery/8.jpg" class="gallery-lightbox"><img src="assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/1.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/2.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/3.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/4.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/5.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/6.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/7.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a href="public/assets/img/gallery/8.jpg" class="gallery-lightbox"><img src="public/assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -672,49 +672,49 @@
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/1.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/1.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/2.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/2.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/3.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/3.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/4.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/4.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/5.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/5.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/6.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/6.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/7.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/7.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="assets/img/supporters/8.png" class="img-fluid" alt="">
+              <img src="public/assets/img/supporters/8.png" class="img-fluid" alt="">
             </div>
           </div>
 
@@ -1010,7 +1010,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
+            <img src="public/assets/img/logo.png" alt="TheEvenet">
             <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
           </div>
 
@@ -1079,14 +1079,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{('assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
-  <script src="{{('assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{('public/assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{('public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{('public/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{('public/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{('public/assets/vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{('assets/js/main.js')}}"></script>
+  <script src="{{('public/assets/js/main.js')}}"></script>
 
 </body>
 
