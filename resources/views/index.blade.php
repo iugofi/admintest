@@ -136,7 +136,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="public/assets/img/speakers/2.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="{{asset('public/assets/img/speakers/2.jpg')}}" alt="Speaker 2" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
                 <p>Consequuntur odio aut</p>
@@ -1079,14 +1079,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{('public/assets/vendor/aos/aos.js')}}"></script>
-  <script src="{{('public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{('public/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
-  <script src="{{('public/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
-  <script src="{{('public/assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{asset('public/assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('public/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{asset('public/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{asset('public/assets/vendor/php-email-form/validate.js')}}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{('public/assets/js/main.js')}}"></script>
+  <script src="{{asset('public/assets/js/main.js')}}"></script>
 
 </body>
 
