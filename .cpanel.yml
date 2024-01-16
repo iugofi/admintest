@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ttbinter/public_html/
-    - /bin/cp -R images $DEPLOYPATH 
