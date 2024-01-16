@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>TheEvent Bootstrap Template - Index</title>
+  <title>TTBN</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('public/assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('public/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  {{-- <link href="{{asset('public/assets/img/favicon.png')}}" rel="icon">
+  <link href="{{asset('public/assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon"> --}}
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
